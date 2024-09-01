@@ -2,6 +2,4 @@
 set -e
 
 # Stop the running container (if any)
-containerid=docker ps | awk -F " " '{print $1}'
-# Removing the container
-docker rm -f$containerid
+echo "Hi"
